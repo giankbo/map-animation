@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
-    <title>RT Bus Tracker</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
-    <link href="./styles.css" rel="stylesheet" />
-</head>
 
+    <!-- <<<<>>>> API Mapbox CSS <<<<>>>> -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    
+    <!-- <<<<>>>> Bootstrap CSS <<<<>>>> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- <<<<>>>> CSS <<<<>>>> -->
+    <link href="./styles.css" rel="stylesheet" />
+
+    <title>RT Bus Tracker</title>
+</head>
 <body>
     <div id="map"></div>
     <div class="map-overlay top">
-        <button style="font-size: 2em" onclick="move()">
-            Show stops between MIT and Harvard
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="move()"> Show stops between MIT and Harvard 
         </button>
     </div>
+
+    <!-- <<<<>>>> API Mapbox JS <<<<>>>> -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+
+    <!-- <<<<>>>> Main JS <<<<>>>> -->
     <script src="./mapanimation.js"></script>
 </body>
-
 </html>
