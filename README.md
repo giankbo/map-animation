@@ -62,7 +62,7 @@ Add *new stops* at other locations.
 
 ## :handshake: Credits
 
-<a href="https://xpro.mit.edu/" target="_blank">MIT xPRO</a>
+<a href="https://xpro.mit.edu/" target="_blank">MIT xPRO</a>\
 <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>
 
 ## :memo: License
