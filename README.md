@@ -58,7 +58,7 @@ $ cd map-animation
 
 ## :factory: Roadmap
 
-add *new stops* at other locations.
+Add *new stops* at other locations.
 
 ## :handshake: Credits
 
