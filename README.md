@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./images/animation.gif" alt="Real Time Bus Tracker" width="300" height="150"/>
+  <img src="./images/animation.gif" alt="Map Animation" width="300" height="150"/>
 
 &#xa0;
 
